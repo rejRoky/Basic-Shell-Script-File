@@ -1,7 +1,7 @@
 sudo apt-get install python3.6 &&
-source env/bin/activate &&
+# source env/bin/activate &&
 sudo apt install python3-pip && 
-pip3 install -r requirements.txt &&
+# pip3 install -r requirements.txt &&
 pip3 install --upgrade djangorestframework-simplejwt &&
 sudo apt-get install binutils libproj-dev gdal-bin &&
 pip3 install django-cors-headers &&
