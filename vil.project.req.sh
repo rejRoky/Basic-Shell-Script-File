@@ -21,4 +21,7 @@ pip3 install django-anymail &&
 pip3 install django-extensions &&
 pip3 install django-import-export &&
 pip3 install django-admin-sortable2 &&
+pip3 install django-ckeditor --upgrade &&
+pip3 install django-admin-interface &&
+pip3 install djangorestframework &&
 pip3 install paho-mqtt 
