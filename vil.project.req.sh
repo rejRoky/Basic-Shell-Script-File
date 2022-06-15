@@ -24,4 +24,9 @@ pip3 install django-admin-sortable2 &&
 pip3 install django-ckeditor --upgrade &&
 pip3 install django-admin-interface &&
 pip3 install djangorestframework &&
+pip3 install sentry-sdk &&
+pip3 install django-map-widgets &&
+pip3 install django-bootstrap4 &&
+pip3 install psycopg2-binary &&
+pip3 install pem &&
 pip3 install paho-mqtt 
