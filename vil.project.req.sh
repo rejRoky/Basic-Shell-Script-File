@@ -1,11 +1,11 @@
 # source env/bin/activate &&
-
 sudo apt-get install python3.6 &&
 sudo apt install python3-pip && 
 sudo apt-get install binutils libproj-dev gdal-bin &&
 sudo apt-get install postgis &&
 
 
+#Module 
 # pip3 install -r requirements.txt &&
 
 pip3 install --upgrade djangorestframework-simplejwt &&
@@ -31,4 +31,5 @@ pip3 install django-bootstrap4 &&
 pip3 install psycopg2-binary &&
 pip3 install pem &&
 pip3 install coreapi &&
+pip3 install django-request-logging &&
 pip3 install paho-mqtt 
