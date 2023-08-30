@@ -6,6 +6,7 @@ sudo apt-get upgrade -y &&
 sudo apt-get dist-upgrade -y &&
 sudo apt install software-properties-common -y &&
 sudo add-apt-repository ppa:deadsnakes/ppa -y &&
+sudo add-apt-repository universe -y &&
 sudo update-grub &&
 
 sudo apt-get install gdebi -y &&

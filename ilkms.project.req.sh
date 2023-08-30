@@ -1,10 +1,10 @@
-
+sudo apt-get update -y &&
 sudo apt-get install python3.10 &&
-sudo apt install python3-pip && 
-python --version
+sudo apt-get install -y python3-pip  &&
+python3 --version 
 
 # pip3 
-pip3 install --upgrade pip
+pip3 install --upgrade pip 
 pip3 install asgiref==3.6.0
 pip3 install cffi==1.15.1
 pip3 install cryptography
