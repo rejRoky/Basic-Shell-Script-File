@@ -1,6 +1,7 @@
 
-sudo apt-get install python3.10
+sudo apt-get install python3.10 &&
 sudo apt install python3-pip && 
+python --version
 
 # pip3 
 pip3 install --upgrade pip

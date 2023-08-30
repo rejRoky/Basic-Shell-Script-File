@@ -4,7 +4,10 @@
 sudo apt-get update  -y &&
 sudo apt-get upgrade -y &&
 sudo apt-get dist-upgrade -y &&
+sudo apt install software-properties-common -y &&
+sudo add-apt-repository ppa:deadsnakes/ppa -y &&
 sudo update-grub &&
+
 sudo apt-get install gdebi -y &&
 sudo apt-get install vlc -y &&
 sudo apt-get install postgresql &&
@@ -23,4 +26,5 @@ sudo apt update && sudo apt install -y \
 
 # Clear cache
 sudo apt autoremove -y &&
+sudo apt-get update  -y &&
 sudo apt-get clean && sudo  rm -rf /var/lib/apt/lists/*
