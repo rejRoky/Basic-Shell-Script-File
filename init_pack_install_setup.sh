@@ -10,8 +10,6 @@ sudo add-apt-repository universe -y &&
 sudo update-grub &&
 
 sudo apt-get install gdebi -y &&
-sudo apt-get install vlc -y &&
-sudo apt-get install postgresql &&
 ####
 sudo apt update && sudo apt install -y \
     build-essential \
